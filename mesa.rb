@@ -22,6 +22,6 @@ data.each do |t|
 end
 
 tables_income.each do |l|
-  print "La #{l.table} recaudó #{l.max} y promedió #{l.average}"
+  print "La #{l.table} recaudó un máximo de #{l.max} y promedió #{l.average} en la semana"
   print "\n"
 end
